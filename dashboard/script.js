@@ -63,3 +63,12 @@ switchInput.addEventListener("input", function () {
     localStorage.setItem("dark-mode", "true");
   }
 });
+
+
+function logoutFunction(){
+  if (confirm('Are you sure to Log-Out from the Dashboard?')) {
+    console.log('User Logged Out.');
+  } else {
+    console.log('User Cancelled.');
+  }
+}

@@ -3,6 +3,7 @@
 
 <head>
     <title>Westbengal Police</title>
+    <link rel="icon" type="image/png" href="./images/favicon.ico"/>
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -101,14 +102,19 @@
     <section class="page-content">
         <section class="search-and-user">
             <h1 style="text-align: center; font-size:xx-large">West Bengal Police</h1>
-            <div class="admin-profile">
-                <span class="greeting">Hello admin</span>
-                <div class="notifications">
-                    <svg>
-                        <use xlink:href="#users"></use>
-                    </svg>
-                </div>
-            </div>
+            <button onclick="logoutFunction()">
+                <a href="../login/index.html">
+                    <div class="admin-profile">
+                        <span class="greeting">Log Out</span>
+                        <div class="notifications">
+                            <svg>
+                                <use xlink:href="#users"></use>
+                            </svg>
+                        </div>
+                    </div>
+                </a>
+            </button>
+
         </section>
         <section class="grid">
             <article>
